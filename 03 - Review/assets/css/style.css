@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  sans-serif;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    
+}
+.container{
+    max-width: 800px;
+}
+h2{
+    font-size: 2em;
+    letter-spacing: 5px;
+}
+
+.title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.underline{
+    height: 5px;
+    width: 80px;
+    background-color: #3299ff;
+    margin: 20px 0;
+}
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 30px;
+    border-radius: 10px;
+    background-color: #fcfcfc;
+    box-shadow: 0px 1px 5px #b3b1b1;
+    max-width: 500px;
+    text-align: center;
+    min-height: 400px;
+    max-height: 100%;
+}
+
+img{
+    border-radius: 50%;
+    width: 130px;
+    height: 120px;
+    border-right: 6px solid #3299ff;
+    border-top: 3px solid #3299ff;
+    object-fit: cover;
+}
+#nome{
+    color: #070707;
+    letter-spacing: 2px;
+    padding: 10px 0 2px;
+}
+#profissao{
+    color: #3299ff;
+    padding-bottom: 10px;
+    font-weight: 600;
+    font-size: 0.875em;
+}
+#sobre{
+    color: #777575;
+}
+.button-container button{
+    font-size: 1.8em;
+    padding: 0 10px;
+    color: #3299ff;
+    border: 0;
+    font-weight: bold;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    background-color: transparent;
+}
+.aleatorio-btn{
+    border: 2px solid #3299ff;
+    background-color: transparent;
+    font-size: 0.875em;
+    border-radius: 3px;
+    padding: 5px;
+    color: #3299ff;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 20px;
+}
+.aleatorio-btn:hover{
+    background-color: #3299ff;
+    color: #fff;
+}
